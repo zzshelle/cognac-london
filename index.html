@@ -32,16 +32,6 @@
         <div class="bg-red-500 w-1/6"></div>
     </div>
 
-    <!-- 醒目調整公告欄 -->
-    <div class="bg-amber-50 border-b border-amber-200 py-3.5 px-4 sm:px-6 lg:px-8 text-amber-900">
-        <div class="max-w-6xl mx-auto flex items-start gap-3">
-            <i data-lucide="info" class="w-5 h-5 shrink-0 text-amber-600 mt-0.5 animate-bounce"></i>
-            <div class="text-sm font-semibold leading-relaxed">
-                重要公告：為降低旅費負擔，本團改為教育旅行半自助精緻團 (16-20人)，商請本校教師領團，如人數未達 16 人將取消辦理。
-            </div>
-        </div>
-    </div>
-
     <!-- Hero Banner 區塊 -->
     <header class="relative bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white overflow-hidden py-16 px-4 sm:px-6 lg:px-8 shadow-xl">
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f1f5f9_1px,transparent_1px)] [background-size:16px_16px]"></div>
@@ -63,6 +53,17 @@
             <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 text-white">
                 英法海外雙城 <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">見學交流計畫</span>
             </h1>
+
+            <!-- 醒目調整公告欄 (置於標題正下方) -->
+            <div class="bg-amber-400/10 backdrop-blur-md border border-amber-400/40 rounded-2xl p-5 mb-6 max-w-3xl shadow-lg shadow-amber-500/5">
+                <div class="flex items-start gap-3.5">
+                    <i data-lucide="alert-circle" class="w-6 h-6 shrink-0 text-amber-400 mt-0.5 animate-pulse"></i>
+                    <div class="text-sm sm:text-base font-bold text-amber-300 leading-relaxed">
+                        【特別公告】為降低旅費負擔，本團改為教育旅行半自助精緻團 (16-20人)，商請本校教師領團，如人數未達 16 人將取消辦理。
+                    </div>
+                </div>
+            </div>
+            
             <p class="text-lg sm:text-xl text-indigo-100/90 max-w-3xl font-light leading-relaxed mb-8">
                 走讀法式浪漫、浸潤英倫菁英氣息。十一天跨越英吉利海峽，由本校教師領團之半自助式學習，攜手同齡學伴、入住寄宿家庭，開啟翻轉視野的國際探索。
             </p>
@@ -112,7 +113,7 @@
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 tracking-wider uppercase mb-1">對象名額</h3>
                     <p class="text-base font-bold text-slate-800">限額 20 名</p>
-                    <p class="text-[10px] text-slate-500 leading-tight">因住房安排，名額將一併考量生理性別</p>
+                    <p class="text-[10px] text-slate-500 leading-tight">倫敦市區4人1房 (依生理性別安排)</p>
                 </div>
             </div>
 
@@ -569,7 +570,7 @@
                     <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 mb-6 text-center">
                         <div class="text-xs text-slate-500 font-semibold mb-1">本校教師領團・半自助旅行預估費用</div>
                         <div class="text-3xl sm:text-4xl font-black text-indigo-600">
-                            新臺幣 <span class="text-slate-900">13.8 萬</span> 元
+                            新臺幣 <span class="text-slate-900">13.8 </span> 萬元
                         </div>
                         <div class="text-xs text-slate-500 mt-2">
                             (原旅行社包團已調整為本校教師領團之半自助形式，大幅減省預算費用！)
@@ -580,7 +581,7 @@
                     <ul class="grid grid-cols-2 gap-2 text-xs text-slate-600 mb-6">
                         <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>4 段航班機票 (2段國際+2段歐陸)</li>
                         <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>機場接送交通</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>全程舒適住宿與寄宿家庭安排</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>全程舒適住宿 (倫敦市區4人1房) 與法國寄宿家庭安排</li>
                         <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>各大城市旅遊大眾運輸費用</li>
                         <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>高額旅遊保險與安全保障</li>
                         <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>經典景點票券代辦費</li>
@@ -724,7 +725,7 @@
                         <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
                     </button>
                     <div id="faq-answer-0" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        本見學活動在法國入住當地寄宿家庭，且在英國倫敦入住當地旅館。由於床位和住房格局有嚴格安全及實務安排限制，為維護全體學員的隱私、舒適與住房配對安全，在錄取與篩選名額（限額 20 名）時，校方將一併通盤考量報名者的生理性別配置。
+                        本見學活動在法國入住當地寄宿家庭，且在英國倫敦入住市區旅館（採 4 人 1 房配置）。由於床位和住房格局有嚴格安全及實務安排限制，為維護全體學員的隱私、舒適與住房配對安全，在錄取與篩選名額（限額 20 名）時，校方將一併通盤考量報名者的生理性別配置。
                     </div>
                 </div>
                 <!-- FAQ 2 -->
@@ -963,11 +964,11 @@
 
             if (yesCount === 4) {
                 titleEl.innerText = "超完美見學人選！";
-                descEl.innerText = "你具備極佳的自主學習力與團隊紀律，這次的學伴入班、寄宿家庭生活與倫敦名校交流，簡直為你量身打造，快去填寫線上表單報名吧！";
+                descEl.innerText = "你具備極佳的自主學習力與團隊紀律，這次的學伴入班、寄宿家庭生活與倫敦名校交流，簡集為你量身打造，快去填寫線上表單報名吧！";
                 actionBtn.classList.remove('hidden');
             } else if (yesCount >= 2) {
                 titleEl.innerText = "符合標準，建議勇於挑戰！";
-                descEl.innerText = "你已準備好應對大部分的核心規範。跨國出團可能會有生活習慣和文化差異的適應期，建議你可以先和父母與導師多討論。若決定挑戰，請記得於 6/23 前完成報名登記。";
+                descEl.innerText = "你已準備好應對大部分的核心規範。跨國出團可能會有生活習慣 and 文化差異的適應期，建議你可以先和父母與導師多討論。若決定挑戰，請記得於 6/23 前完成報名登記。";
                 actionBtn.classList.remove('hidden');
             } else {
                 titleEl.innerText = "建議庫重與父母及師長評估";
