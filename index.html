@@ -32,6 +32,16 @@
         <div class="bg-red-500 w-1/6"></div>
     </div>
 
+    <!-- 醒目調整公告欄 -->
+    <div class="bg-amber-50 border-b border-amber-200 py-3.5 px-4 sm:px-6 lg:px-8 text-amber-900">
+        <div class="max-w-6xl mx-auto flex items-start gap-3">
+            <i data-lucide="info" class="w-5 h-5 shrink-0 text-amber-600 mt-0.5 animate-bounce"></i>
+            <div class="text-sm font-semibold leading-relaxed">
+                重要公告：為降低旅費負擔，本團改為教育旅行半自助精緻團 (16-20人)，商請本校教師領團，如人數未達 16 人將取消辦理。
+            </div>
+        </div>
+    </div>
+
     <!-- Hero Banner 區塊 -->
     <header class="relative bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white overflow-hidden py-16 px-4 sm:px-6 lg:px-8 shadow-xl">
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f1f5f9_1px,transparent_1px)] [background-size:16px_16px]"></div>
@@ -187,7 +197,7 @@
                         <h3 class="text-xl font-bold text-slate-900 mb-1">雙城名勝巡禮</h3>
                         <p class="text-sm font-semibold text-amber-600 mb-4">走讀英法經典歷史地標</p>
                         <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                            跳脫課本框架！漫步法國波爾多（聖凱瑟琳街、波爾多大劇院、大鐘門）感受浪漫酒鄉文化，並巡禮英國倫敦經典景點（白金漢宮、西敏寺、大英博物館、倫敦眼），深度體會歐洲兩大帝國的歷史底蘊。
+                            跳脫課本框架！漫步法國干邑省感受浪漫酒鄉文化，並巡禮英國倫敦經典景點（白金漢宮、西敏寺、大英博物館、倫敦眼），深度體會歐洲兩大帝國的歷史底蘊。
                         </p>
                     </div>
                     <div class="border-t border-slate-100 pt-4 flex items-center justify-between text-xs text-slate-500">
@@ -421,7 +431,7 @@
                             </div>
                             <div class="md:w-3/4">
                                 <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">波爾多 ➔ 英國倫敦 (晚班機出發)</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">完成法國階段學習後，直接搭乘晚班機飛往英國倫敦，抵達後前往飯店辦理入住，養精蓄銳準備展開英倫見學。</p>
+                                <p class="text-slate-600 text-sm leading-relaxed">本日波爾多市區遊覽行程取消。完成法國階段學習後，直接搭乘晚班機飛往英國倫敦，抵達後前往飯店辦理入住，養精蓄銳準備展開英倫見學。</p>
                             </div>
                         </div>
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
@@ -727,7 +737,7 @@
                         <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
                     </button>
                     <div id="faq-answer-1" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        在教師領團半自助形式下，費用大幅降至 13.8 萬元，扣成了昂貴的遊覽車與導遊費用。我們在倫敦與法國城市內主要利用發達的大眾交通運輸系統（地鐵、公車等），這不僅培養了學生的自主探索力，更能深入體驗在地生活。同時，行程中的景點安排、安全維護、住宿和 4 段機票都已妥善包含。
+                        在教師領團半自助形式下，費用大幅降至 13.8 萬元，扣成了昂貴的遊覽車與導遊費用。我們在倫敦與法國城市內主要利用發達的大眾交通運輸系統（地鐵、公車等），這不僅培養了學生的自主探索力，更能深入體驗在地生活。同時，行程中的景點安排、安全維護、住宿 and 4 段機票都已妥善包含。
                     </div>
                 </div>
                 <!-- FAQ 3 -->
@@ -932,6 +942,7 @@
             }
         }
 
+        // 提交測驗
         function calculateScore() {
             if (Object.values(quizAnswers).includes(null)) {
                 alert("請先填選完所有問題再送出查看評估！");
@@ -959,7 +970,7 @@
                 descEl.innerText = "你已準備好應對大部分的核心規範。跨國出團可能會有生活習慣和文化差異的適應期，建議你可以先和父母與導師多討論。若決定挑戰，請記得於 6/23 前完成報名登記。";
                 actionBtn.classList.remove('hidden');
             } else {
-                titleEl.innerText = "建議慎重與父母及師長評估";
+                titleEl.innerText = "建議庫重與父母及師長評估";
                 descEl.innerText = "這趟行程需要極佳的自主紀律、高強度的學習任務（每日撰寫心得）以及密集的行前訓練。若部分問題有所顧慮，建議你多利用時間與圖書館老師交流了解細節。";
                 actionBtn.classList.add('hidden');
             }
