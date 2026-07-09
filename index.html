@@ -270,11 +270,11 @@
                           <text x="210" y="30" fill="#94a3b8" font-size="11" font-weight="bold" text-anchor="middle">法國干邑 (Cognac)</text>
                         </g>
 
-                        <!-- 節點 3: 波爾多 -->
+                        <!-- 節點 3: 波爾多 / 移動點 -->
                         <g class="cursor-pointer map-node" onclick="setPhase(2)">
                           <circle cx="370" cy="110" r="7" fill="#475569" class="transition-all duration-200 main-circle" />
                           <circle cx="370" cy="110" r="16" stroke="#f59e0b" stroke-width="2" fill="none" class="animate-ping ping-ring hidden" />
-                          <text x="370" y="140" fill="#94a3b8" font-size="11" font-weight="bold" text-anchor="middle">波爾多 (BOD)</text>
+                          <text x="370" y="140" fill="#94a3b8" font-size="11" font-weight="bold" text-anchor="middle">波爾多 ➔ 倫敦</text>
                         </g>
 
                         <!-- 節點 4: 英國倫敦 -->
@@ -304,25 +304,25 @@
                 <button onclick="setPhase(0)" class="phase-btn py-3.5 px-4 rounded-xl text-left border-2 border-slate-900 shadow-md transform -translate-y-0.5 transition-all duration-200 bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
                     <div class="text-xs text-slate-500 font-semibold uppercase mb-1">第 1 階段行程</div>
                     <div class="text-sm font-bold text-slate-800 leading-tight">Day 1 - Day 2</div>
-                    <div class="text-xs text-slate-600 truncate mt-1">啟航法國與入住</div>
+                    <div class="text-xs text-slate-600 truncate mt-1">10/30 ~ 10/31 啟航與家庭入住</div>
                 </button>
                 <!-- 按鈕 2 -->
                 <button onclick="setPhase(1)" class="phase-btn py-3.5 px-4 rounded-xl text-left border-2 bg-slate-50 border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition-all duration-200">
                     <div class="text-xs text-slate-500 font-semibold uppercase mb-1">第 2 階段行程</div>
                     <div class="text-sm font-bold text-slate-800 leading-tight">Day 3 - Day 6</div>
-                    <div class="text-xs text-slate-600 truncate mt-1">干邑校園與家庭</div>
+                    <div class="text-xs text-slate-600 truncate mt-1">11/01 ~ 11/04 干邑高中與Homestay</div>
                 </button>
                 <!-- 按鈕 3 -->
                 <button onclick="setPhase(2)" class="phase-btn py-3.5 px-4 rounded-xl text-left border-2 bg-slate-50 border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition-all duration-200">
                     <div class="text-xs text-slate-500 font-semibold uppercase mb-1">第 3 階段行程</div>
                     <div class="text-sm font-bold text-slate-800 leading-tight">Day 7 - Day 8</div>
-                    <div class="text-xs text-slate-600 truncate mt-1">波爾多與倫敦SHHS</div>
+                    <div class="text-xs text-slate-600 truncate mt-1">11/05 ~ 11/06 跨英移動與SHHS交流</div>
                 </button>
                 <!-- 按鈕 4 -->
                 <button onclick="setPhase(3)" class="phase-btn py-3.5 px-4 rounded-xl text-left border-2 bg-slate-50 border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition-all duration-200">
                     <div class="text-xs text-slate-500 font-semibold uppercase mb-1">第 4 階段行程</div>
                     <div class="text-sm font-bold text-slate-800 leading-tight">Day 9 - Day 11</div>
-                    <div class="text-xs text-slate-600 truncate mt-1">倫敦走讀與返台</div>
+                    <div class="text-xs text-slate-600 truncate mt-1">11/07 ~ 11/09 倫敦深度走讀與返台</div>
                 </button>
             </div>
 
@@ -337,31 +337,28 @@
                             <h3 class="text-xl sm:text-2xl font-black text-slate-900">第一階段：啟航前往法國與家庭入住</h3>
                         </div>
                         <div class="text-slate-700 bg-white/70 backdrop-blur px-4 py-2 rounded-lg border border-white/80 text-sm font-medium shadow-sm">
-                            地標：<span class="font-bold">桃園國際機場 ➔ 巴黎 CDG ➔ 波爾多 ➔ 干邑</span>
+                            區域：<span class="font-bold">臺灣 ➔ 巴黎 ➔ 波爾多 ➔ 干邑</span>
                         </div>
                     </div>
-                    <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-8 border-b border-slate-900/10 pb-6">
-                        跨越半個地球開啟見學之旅。飛抵花都巴黎後轉往西南部波爾多，並抵達干邑，由當地寄宿家庭迎接。
-                    </p>
                     <div class="space-y-6">
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
                                 <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 1</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-10-30 (五)</div>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-10-30 (五)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">臺灣出發 ➔ 飛越歐亞</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">於桃園國際機場集合，辦理登機與行李託運手續。搭乘國際航班（含過境轉機），帶著雀躍與挑戰自我的心前往浪漫的法國。</p>
+                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">臺灣出發 ➔ 飛越歐亞 (臺灣 ➔ 巴黎)</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">【臺灣時間】於桃園國際機場集合，辦理登機與行李託運手續。搭乘<strong>長榮航空 BR087 班機（桃園 23:30 / 巴黎 07:55 +1）</strong>啟航，帶著雀躍與挑戰自我的心前往法國。</p>
                             </div>
                         </div>
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
                                 <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 2</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-10-31 (六)</div>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-10-31 (六)</div>
                             </div>
                             <div class="md:w-3/4">
                                 <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">抵達巴黎 ➔ 波爾多 ➔ 入住干邑寄宿家庭</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">抵達巴黎戴高樂機場（CDG），隨即搭乘歐陸境內線飛機抵達波爾多，並搭乘專車前往干邑省 (Cognac) Beaulieu 高中與寄宿家庭（Homestay）見面，展開道地法式日常生活體驗。</p>
+                                <p class="text-slate-600 text-sm leading-relaxed">【法國時間】抵達巴黎後，轉機飛往波爾多機場<strong>（巴黎 12:00 / 波爾多 13:30）</strong>。抵達波爾多後前往干邑省 (Cognac) Beaulieu 高中，與精心遴選的寄宿家庭（Homestay）見面並入住，展開道地法式日常生活體驗。</p>
                             </div>
                         </div>
                     </div>
@@ -372,34 +369,31 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                         <div>
                             <span class="inline-block px-3 py-1 rounded-full text-white text-xs font-bold bg-emerald-600 mb-2">Day 3 - Day 6 (11/01 - 11/04)</span>
-                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第二階段：法國干邑 Beaulieu 高中隨班體驗</h3>
+                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第二階段：法國干邑高中隨班體驗與家庭生活</h3>
                         </div>
                         <div class="text-slate-700 bg-white/70 backdrop-blur px-4 py-2 rounded-lg border border-white/80 text-sm font-medium shadow-sm">
-                            地標：<span class="font-bold">法國干邑省 (Cognac) Beaulieu High School</span>
+                            區域：<span class="font-bold">法國干邑 (Cognac)</span>
                         </div>
                     </div>
-                    <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-8 border-b border-slate-900/10 pb-6">
-                        與當地學伴零距離共讀，同時利用課餘時間進行法式日常生活交流，培養跨文化思維。
-                    </p>
                     <div class="space-y-6">
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
-                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 3 - 4</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-01 ~ 11-02 (日、一)</div>
+                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 3-4</span>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-11-01 ~ 11-02 (日、一)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">寄宿家庭週末生活與入校準備</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">與寄宿家庭共度美好週日，熟悉法語及生活起居環境。週一進入 Beaulieu 高中進行環境認識與首日隨班相處，建立彼此默契與良好情誼。</p>
+                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">入校歡迎儀式 ＆ 2日學伴隨班沉浸式學習體驗</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">進入法國干邑省 Beaulieu 高中。參與學校溫馨的入校歡迎儀式，隨後展開 2 日學伴隨班沉浸式學習。與當地法國同學一同上課，完全沉浸於歐洲探究與自主式的教育環境中。</p>
                             </div>
                         </div>
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
-                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 5 - 6</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-03 ~ 11-04 (二、三)</div>
+                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 5-6</span>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-11-03 ~ 11-04 (二、三)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">Beaulieu 高中 2 日完整入班隨班體驗</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">由專屬法國學伴帶領，深入法國課堂、參與科學、語文或歷史思辨分組活動，完全沉浸於歐洲探究式與自主式的教育環境中。</p>
+                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">寄宿家庭在地生活與跨文化交流活動</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">進行為期 2 日的寄宿家庭深度體驗。融入道地法國家庭日常，共同規劃日常生活交流，培養跨文化思維與法語口語表達力，建立跨國深厚情誼。</p>
                             </div>
                         </div>
                     </div>
@@ -410,34 +404,31 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                         <div>
                             <span class="inline-block px-3 py-1 rounded-full text-white text-xs font-bold bg-amber-600 mb-2">Day 7 - Day 8 (11/05 - 11/06)</span>
-                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第三階段：波爾多巡禮與英國姊妹校深度交流</h3>
+                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第三階段：移動飛往倫敦與姊妹校 SHHS 交流</h3>
                         </div>
                         <div class="text-slate-700 bg-white/70 backdrop-blur px-4 py-2 rounded-lg border border-white/80 text-sm font-medium shadow-sm">
-                            地標：<span class="font-bold">法國波爾多 ➔ 英國倫敦 South Hampstead High School</span>
+                            區域：<span class="font-bold">法國干邑 ➔ 英國倫敦</span>
                         </div>
                     </div>
-                    <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-8 border-b border-slate-900/10 pb-6">
-                        探訪名列文化遺產的波爾多，並搭乘晚班機飛往英國倫敦，隔日前往中正高中百年姊妹校 SHHS 交流。
-                    </p>
                     <div class="space-y-6">
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
-                                * <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 7</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-05 (四)</div>
+                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 7</span>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-11-05 (四)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">波爾多地標走讀（波爾多大劇院） ➔ 飛往倫敦</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">告別法國寄宿家庭後前往波爾多，欣賞波爾多大劇院等宏偉古典建築，並在傍晚搭機飛往英國倫敦，辦理入住倫敦精選飯店（採舒適精巧的 4 人房配置）。</p>
+                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">法國見學基地巡禮 ➔ 移動飛往英國倫敦</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">上午於法國干邑見學基地進行最後巡禮與整理行李。午後專車前往機場辦理登機，傍晚搭機（歐陸航段）飛往英國倫敦。抵達後利用大眾運輸/專車接送至倫敦市區飯店（採舒適安全之 4 人 1 房規格配置）。</p>
                             </div>
                         </div>
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
                                 <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 8</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-06 (五)</div>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-11-06 (五)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">倫敦姊妹校 SHHS 深度學術交流 ➔ 頂尖大學參訪</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">上午造訪中正高中的百年頂尖姊妹校 <strong>South Hampstead High School</strong>，與英國學伴展開半日的專題探討及校園互動；下午前往鄰近之世界頂尖大學（如 UCL 或 Imperial）參訪學術氛圍。</p>
+                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">倫敦塔橋巡禮、大學參訪 ➔ 姊妹校 SHHS 深度交流</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">【半自助教學體驗】：上午利用城市大眾運輸進行倫敦塔橋 (White Tower) 歷史巡禮，並參訪周邊頂尖大學學術殿堂。【下午】前往中正高中倫敦百年頂尖姊妹校 <strong>South Hampstead High School (SHHS)</strong> 進行半日深度學術與文化交流。</p>
                             </div>
                         </div>
                     </div>
@@ -448,549 +439,16 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                         <div>
                             <span class="inline-block px-3 py-1 rounded-full text-white text-xs font-bold bg-purple-600 mb-2">Day 9 - Day 11 (11/07 - 11/09)</span>
-                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第四階段：倫敦經典走讀巡禮與返台</h3>
+                            <h3 class="text-xl sm:text-2xl font-black text-slate-900">第四階段：倫敦經典歷史走讀與返台</h3>
                         </div>
                         <div class="text-slate-700 bg-white/70 backdrop-blur px-4 py-2 rounded-lg border border-white/80 text-sm font-medium shadow-sm">
-                            地標：<span class="font-bold">英國倫敦地標 ➔ 倫敦希斯洛機場 (LHR) ➔ 臺灣桃園 (TPE)</span>
+                            區域：<span class="font-bold">英國倫敦 ➔ 臺灣桃園 (TPE)</span>
                         </div>
                     </div>
-                    <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-8 border-b border-slate-900/10 pb-6">
-                        暢遊倫敦世界著名景觀，搭乘聯航班機，在滿滿的見學反思與感動中平安返抵國門。
-                    </p>
                     <div class="space-y-6">
                         <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
                             <div class="md:w-1/4">
                                 <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 9</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-07 (六)</div>
+                                <div class="text-xs font-semibold text-slate-500 mt-2">2026-11-07 (六)</div>
                             </div>
                             <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">倫敦經典名勝歷史地標走讀</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">利用大眾運輸集體移動，走讀白金漢宮（皇家衛兵交接）、莊嚴的西敏寺、世界瑰寶大英博物館與遠眺泰晤士河畔倫敦眼，深刻領會日不落帝國的輝煌歲月。</p>
-                            </div>
-                        </div>
-                        <div class="bg-white/95 backdrop-blur p-6 rounded-xl shadow-sm border border-slate-900/5 flex flex-col md:flex-row gap-4 items-start">
-                            <div class="md:w-1/4">
-                                <span class="inline-flex items-center gap-1.5 bg-slate-900 text-amber-400 font-mono text-sm font-black px-3 py-1.5 rounded-lg">Day 10 - 11</span>
-                                <div class="text-xs font-semibold text-slate-500 mt-2">115-11-08 ~ 11-09 (日、一)</div>
-                            </div>
-                            <div class="md:w-3/4">
-                                <h4 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-1.5">分組自主探索 ➔ 啟程返台 ➔ 平安抵台解散</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">完成分組最後自主探索主題。傍晚搭車前往倫敦希斯洛機場辦理退稅與登機。於11/9（一）平安抵達桃園國際機場，返回中正高中解散，結束豐富深刻的英法見學！</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 返回/前進 階段按鈕 -->
-                <div class="mt-8 pt-6 border-t border-slate-900/10 flex justify-between px-2">
-                    <button
-                        id="prev-phase-btn"
-                        disabled
-                        onclick="prevPhase()"
-                        class="px-4 py-2 rounded-lg text-sm font-semibold border border-slate-300 bg-white hover:bg-slate-100 transition disabled:opacity-50 disabled:cursor-not-allowed text-slate-700"
-                    >
-                        ← 上一階段
-                    </button>
-                    <button
-                        id="next-phase-btn"
-                        onclick="nextPhase()"
-                        class="px-4 py-2 rounded-lg text-sm font-semibold border border-transparent bg-slate-900 hover:bg-slate-800 text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        下一階段 →
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- 報名時程與重要費用規範 -->
-        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-          
-            <!-- 報名四部曲時間軸 -->
-            <div class="bg-white rounded-2xl border border-slate-100 shadow-lg p-6 sm:p-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                    <i data-lucide="clock" class="w-5 h-5 text-indigo-600"></i>
-                    甄選報名「四部曲」流程
-                </h3>
-                <div class="relative border-l-2 border-indigo-100 pl-6 ml-3 space-y-8">
-                    <!-- 步驟 1 -->
-                    <div class="relative">
-                        <span class="absolute -left-10 top-1 bg-blue-50 border-2 border-blue-600 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-blue-600">1</span>
-                        <div class="mb-1 text-xs font-semibold text-blue-600 tracking-wider">第一步：登記預約</div>
-                        <h4 class="text-base font-bold text-slate-900 mb-2">線上填寫報名表單</h4>
-                        <p class="text-slate-600 text-sm leading-relaxed">請優先進入線上報名系統。填寫基本資料與預約意向（注意：線上填答完成並不等同於正式錄取）。</p>
-                    </div>
-                    <!-- 步驟 2 -->
-                    <div class="relative">
-                        <span class="absolute -left-10 top-1 bg-amber-50 border-2 border-amber-500 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-amber-700">2</span>
-                        <div class="mb-1 text-xs font-semibold text-amber-600 tracking-wider">第二步：上傳必要文件</div>
-                        <h4 class="text-base font-bold text-slate-900 mb-2">家長同意暨活動保證書</h4>
-                        <p class="text-slate-600 text-sm leading-relaxed">下載報名簡章後，請務必詳細閱讀簡章第 4 頁並親筆填寫<strong>『家長同意暨活動保證書』</strong>，經學生與家長雙方手寫簽名後，拍照或掃描上傳至報名表單。</p>
-                    </div>
-                    <!-- 步驟 3 -->
-                    <div class="relative">
-                        <span class="absolute -left-10 top-1 bg-emerald-50 border-2 border-emerald-600 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-emerald-600">3</span>
-                        <div class="mb-1 text-xs font-semibold text-emerald-600 tracking-wider">第三步：預約口試</div>
-                        <h4 class="text-base font-bold text-slate-900 mb-2">預約並參與線上面試</h4>
-                        <p class="text-slate-600 text-sm leading-relaxed">表單填答完成後，請於表單系統預約線上面試日期及時間，並請務必依預約時段準時出席線上面試甄選。</p>
-                    </div>
-                    <!-- 步驟 4 -->
-                    <div class="relative">
-                        <span class="absolute -left-10 top-1 bg-indigo-50 border-2 border-indigo-600 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-indigo-600">4</span>
-                        <div class="mb-1 text-xs font-semibold text-indigo-600 tracking-wider">第四步：放榜名單公告</div>
-                        <h4 class="text-base font-bold text-slate-900 mb-2">7/17 (五) 前校網公告結果</h4>
-                        <p class="text-slate-600 text-sm leading-relaxed">正取及備取名單將於 <strong>115 年 7 月 17 日（五）17:00 前</strong> 於中正高中學校官網首頁最新消息處正式公告。</p>
-                    </div>
-                </div>
-
-                <!-- 注意事項提醒 -->
-                <div class="mt-8 p-4 bg-amber-50 rounded-xl border border-amber-200 text-amber-800 text-xs leading-relaxed flex gap-3">
-                    <i data-lucide="alert-triangle" class="w-5 h-5 shrink-0 text-amber-600"></i>
-                    <div>
-                        <strong>隨到隨審重要提醒：</strong>本計畫限額至多 20 名，採取「隨到隨審，額滿即止」機制。建議有意願參加的現高一、高二同學儘早遞交表單及預約面試。
-                    </div>
-                </div>
-            </div>
-
-            <!-- 費用詳情與重要權益規範 -->
-            <div class="bg-white rounded-2xl border border-slate-100 shadow-lg p-6 sm:p-8 flex flex-col justify-between">
-                <div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-                        <i data-lucide="dollar-sign" class="w-5 h-5 text-indigo-600"></i>
-                        教師領團半自助精緻團費用
-                    </h3>
-
-                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 mb-6 text-center">
-                        <div class="text-xs text-slate-500 font-semibold mb-1">本校教師領隊・半自助預估費用</div>
-                        <div class="text-3xl sm:text-4xl font-black text-indigo-600">
-                            新臺幣 <span class="text-slate-900">13.8 </span> 萬元
-                        </div>
-                        <div class="text-xs text-slate-500 mt-2">
-                            (大幅精簡一般包團導遊與大巴費用，深度自主高CP值)
-                        </div>
-                    </div>
-
-                    <h4 class="text-sm font-bold text-slate-800 mb-3">【預估費用包含項目】</h4>
-                    <ul class="grid grid-cols-2 gap-2 text-xs text-slate-600 mb-6">
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>4 段航班機票（含歐陸航段）</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>全程機場接送交通</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>全程舒適住宿 (倫敦精選飯店 4 人房)</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>法國寄宿家庭安排費</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>雙城大眾運輸（地鐵公車等）費用</li>
-                        <li class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>旅遊保險 ＆ 經典景點票券代辦費</li>
-                    </ul>
-
-                    <h4 class="text-sm font-bold text-slate-800 mb-2">【權益、退團、與紀律條款】</h4>
-                    <div class="text-xs text-slate-600 space-y-2 leading-relaxed">
-                        <p>
-                            1. <strong>配合行前訓練：</strong>錄取後必須積極、全程配合參加本校辦理的所有出發前培訓與行前說明會，無故缺席情節嚴重者將取消其正取資格。
-                        </p>
-                        <p>
-                            2. <strong>大眾運輸與自律：</strong>本見學定位為半自助見學，在城市內需全程遵守領團教師指揮，並依據大眾運輸集體行動規範，不擅自離隊、注重團隊互助與紀律。
-                        </p>
-                        <p>
-                            3. <strong>退費承擔規範：</strong>報名前請務必與家人討論並審慎評估。若面試錄取後因故決定退出，學生及家長須自行承擔及支付已產生之相關作業費用與退票罰鍰。
-                        </p>
-                    </div>
-                </div>
-
-                <div class="border-t border-slate-100 pt-6 mt-6 flex flex-col sm:flex-row gap-3">
-                    <a 
-                      href="https://drive.google.com/file/d/1d6hJmSglzV1wfAwLyouBxMcwYS_BEpPQ/view?usp=drive_link" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      class="flex-1 inline-flex items-center justify-center px-4 py-2.5 rounded-lg border border-slate-200 hover:border-slate-300 text-xs font-bold text-slate-700 bg-white shadow-sm hover:shadow transition"
-                    >
-                      下載簡章（內含同意書）
-                      <i data-lucide="external-link" class="w-3.5 h-3.5 ml-1.5 text-slate-400"></i>
-                    </a>
-                    <a 
-                      href="https://forms.gle/VQCweuZ17iJk3KLXA" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      class="flex-1 inline-flex items-center justify-center px-4 py-2.5 rounded-lg border border-transparent bg-slate-900 hover:bg-slate-800 text-xs font-bold text-white shadow transition"
-                    >
-                      填寫線上表單報名
-                      <i data-lucide="external-link" class="w-3.5 h-3.5 ml-1.5 text-amber-400"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- 互動式的「適合度自檢測試」區 -->
-        <section class="mb-16 bg-slate-900 text-white rounded-2xl shadow-xl overflow-hidden">
-            <div class="p-8 sm:p-12 relative">
-                <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px]"></div>
-                <div id="quiz-container" class="relative z-10 max-w-3xl">
-                    <span class="text-amber-400 font-mono text-xs tracking-wider uppercase font-bold">SELF-ASSESSMENT QUIZ</span>
-                    <h2 class="text-2xl sm:text-3xl font-black mt-1 mb-3">
-                        英法見學半自助「適合度自我評估」
-                    </h2>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-8">
-                        此計畫為 11 天教師領團之半自助學習旅行。填寫以下 4 題自檢，確認你是否已經準備好迎接收穫滿滿的跨國大冒險！
-                    </p>
-
-                    <!-- 測驗問題區 -->
-                    <div id="quiz-questions-block" class="space-y-4">
-                        <!-- Q1 -->
-                        <div class="quiz-item bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                            <span class="text-sm font-medium text-slate-100">1. 我有意願主動使用英語或基礎法語，在寄宿家庭與學校交流中勇於表達自己。</span>
-                            <div class="flex gap-2 shrink-0">
-                                <button onclick="answerQuestion('q1', 'yes', this)" class="btn-q1 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">是的，我準備好了</button>
-                                <button onclick="answerQuestion('q1', 'no', this)" class="btn-q1 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">有點顧慮 / 有困難</button>
-                            </div>
-                        </div>
-                        <!-- Q2 -->
-                        <div class="quiz-item bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                            <span class="text-sm font-medium text-slate-100">2. 我能在出國期間遵守大眾運輸集體移動規範與導師領隊的紀律安全要求。</span>
-                            <div class="flex gap-2 shrink-0">
-                                <button onclick="answerQuestion('q2', 'yes', this)" class="btn-q2 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">是的，我準備好了</button>
-                                <button onclick="answerQuestion('q2', 'no', this)" class="btn-q2 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">有點顧慮 / 有困難</button>
-                            </div>
-                        </div>
-                        <!-- Q3 -->
-                        <div class="quiz-item bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                            <span class="text-sm font-medium text-slate-100">3. 我和家長都已經詳細閱讀簡章與保證書，並同意若錄取後退出將自行負擔退票等作業費用。</span>
-                            <div class="flex gap-2 shrink-0">
-                                <button onclick="answerQuestion('q3', 'yes', this)" class="btn-q3 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">是的，我與家長都清楚了</button>
-                                <button onclick="answerQuestion('q3', 'no', this)" class="btn-q3 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">還沒完全閱讀好</button>
-                            </div>
-                        </div>
-                        <!-- Q4 -->
-                        <div class="quiz-item bg-slate-800/80 backdrop-blur p-4 rounded-xl border border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                            <span class="text-sm font-medium text-slate-100">4. 我有決心全程配合出發前的行前訓練，並於回國後按時撰寫並完成學習任務。</span>
-                            <div class="flex gap-2 shrink-0">
-                                <button onclick="answerQuestion('q4', 'yes', this)" class="btn-q4 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">是的，我很有決心</button>
-                                <button onclick="answerQuestion('q4', 'no', this)" class="btn-q4 px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition">可能有點吃力</button>
-                            </div>
-                        </div>
-                        
-                        <div class="pt-4 flex justify-end">
-                            <button onclick="calculateScore()" class="px-6 py-3 rounded-lg text-sm font-bold bg-amber-400 text-slate-900 hover:bg-amber-300 transition shadow-lg hover:shadow-amber-400/20">
-                                提交並查看自評結果
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- 測驗結果區 (預設隱藏) -->
-                    <div id="quiz-result-block" class="bg-slate-800/80 backdrop-blur p-8 rounded-xl border border-slate-700 text-center max-w-xl mx-auto hidden">
-                        <div class="text-5xl font-black text-amber-400 mb-3">
-                            <span id="score-text">0</span> <span class="text-xl text-slate-400">/ 4</span>
-                        </div>
-                        <h4 id="result-title" class="text-lg font-bold text-slate-100 mb-2">評估中...</h4>
-                        <p id="result-desc" class="text-sm text-slate-300 leading-relaxed mb-6"></p>
-                        <div class="flex gap-3 justify-center">
-                            <button onclick="resetQuiz()" class="px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-white transition">
-                                重新評估
-                            </button>
-                            <a
-                              id="result-action-btn"
-                              href="https://forms.gle/VQCweuZ17iJk3KLXA"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              class="px-4 py-2 rounded-lg text-xs font-bold bg-amber-400 text-slate-950 hover:bg-amber-300 transition hidden"
-                            >
-                              立即前往線上登記報名
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 簡章及保證書規範詳情分頁 FAQ -->
-        <section class="mb-16">
-            <div class="text-center max-w-3xl mx-auto mb-10">
-                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-                    家長與學生常見問答 (FAQ)
-                </h2>
-                <div class="w-12 h-1 bg-indigo-600 mx-auto my-3 rounded-full"></div>
-                <p class="text-slate-500 text-sm">
-                    整理了關於成團條件、口試機制以及住宿規範等，提供最透明、詳實的資訊。
-                </p>
-            </div>
-
-            <div class="max-w-3xl mx-auto space-y-3">
-                <!-- FAQ 1 -->
-                <div class="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(0)" class="w-full text-left p-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-bold text-slate-800 text-sm sm:text-base flex items-center gap-2">
-                            <span class="text-indigo-600 font-mono">Q.</span>
-                            請問此見學交流計畫有成團人數限制嗎？
-                        </span>
-                        <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
-                    </button>
-                    <div id="faq-answer-0" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        是的。本教育旅行改由「本校教師領團之半自助精緻團」辦理，為確保出團品質，正取人數成團門檻為 <strong>16 人（至多 20 名）</strong>。若正取人數未達 16 人，本計畫將取消辦理。
-                    </div>
-                </div>
-                <!-- FAQ 2 -->
-                <div class="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(1)" class="w-full text-left p-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-bold text-slate-800 text-sm sm:text-base flex items-center gap-2">
-                            <span class="text-indigo-600 font-mono">Q.</span>
-                            線上填完表單就算完成報名與錄取嗎？
-                        </span>
-                        <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
-                    </button>
-                    <div id="faq-answer-1" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        不算。填寫線上表單僅為第一步，您必須同時<strong>下載並手寫簽名上傳『家長同意暨活動保證書』</strong>（簡章第4頁），並在表單系統內預約線上面試時間，並依時程準時出席，待審查與面試通過後才算是正式正取。正取名單預計於 7/17（五）17:00 前於校網首頁公告。
-                    </div>
-                </div>
-                <!-- FAQ 3 -->
-                <div class="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(2)" class="w-full text-left p-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-bold text-slate-800 text-sm sm:text-base flex items-center gap-2">
-                            <span class="text-indigo-600 font-mono">Q.</span>
-                            在英國倫敦期間的住宿房型與規格如何配置？
-                        </span>
-                        <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
-                    </button>
-                    <div id="faq-answer-2" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        在英國倫敦期間，將入住精選之便利市區飯店，房型為舒適的 <strong>4 人一房</strong>（依生理性別安排）。
-                    </div>
-                </div>
-                <!-- FAQ 4 -->
-                <div class="bg-white rounded-xl border border-slate-100 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(3)" class="w-full text-left p-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-bold text-slate-800 text-sm sm:text-base flex items-center gap-2">
-                            <span class="text-indigo-600 font-mono">Q.</span>
-                            如果錄取並簽約後中途退出，費用怎麼處理？
-                        </span>
-                        <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-slate-400 shrink-0 transform transition-transform duration-200"></i>
-                    </button>
-                    <div id="faq-answer-3" class="faq-answer hidden p-5 bg-slate-50 border-t border-slate-100 text-slate-600 text-sm leading-relaxed">
-                        為避免浪費採購公帑及影響其他備取同學的權益，報名前請審慎與家長評估意願。若錄取公告並產生行政作業後欲退出者，學員須依約<strong>自行承擔與繳付已產生之所有行政作業及退機票/退訂房罰鍰手續費用</strong>。
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 底部行動呼籲 CTA -->
-        <section id="sign-up" class="bg-gradient-to-br from-indigo-900 to-indigo-950 text-white rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden shadow-2xl">
-            <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px]"></div>
-            
-            <div class="relative z-10 max-w-3xl mx-auto">
-                <span class="bg-amber-400 text-slate-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">
-                    ⌛ 隨到隨審・熱烈報名中
-                </span>
-                <h2 class="text-2xl sm:text-4xl font-black mb-4">
-                    即刻報名！開拓你的法英雙城視野
-                </h2>
-                <p class="text-indigo-100 text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto">
-                    報名截止時間為 <strong>115 年 7 月 15 日（三）中午 12:00</strong> 止，至多招收 20 名高一、高二學子。跟隨中正高中的優良教師，開啟屬於你的國際深度自主研習旅程！
-                </p>
-
-                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <a 
-                      href="https://forms.gle/VQCweuZ17iJk3KLXA"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-xl text-slate-900 bg-amber-400 hover:bg-amber-300 transition-all duration-200 shadow-lg hover:shadow-amber-400/20"
-                    >
-                      線上填寫報名表單 (不等同錄取)
-                      <i data-lucide="chevron-right" class="w-5 h-5 ml-1"></i>
-                    </a>
-                    <a 
-                      href="https://drive.google.com/file/d/1d6hJmSglzV1wfAwLyouBxMcwYS_BEpPQ/view?usp=drive_link"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-4 border border-indigo-400/30 hover:border-indigo-400 text-base font-semibold rounded-xl text-indigo-100 bg-indigo-950/60 hover:bg-indigo-950 transition-all duration-200"
-                    >
-                      下載簡章及活動保證書
-                    </a>
-                </div>
-
-                <div class="mt-8 text-xs text-indigo-200/80 leading-relaxed max-w-md mx-auto bg-indigo-950/40 p-4 rounded-xl border border-indigo-500/10">
-                    <h4 class="font-bold text-amber-300 mb-1 flex items-center justify-center gap-1.5"><i data-lucide="compass" class="w-4 h-4"></i> 簡章及報名官網</h4>
-                    <a href="https://zzshelle.github.io/cognac-london/" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 underline break-all font-mono">https://zzshelle.github.io/cognac-london/</a>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="bg-slate-900 text-slate-400 text-xs py-12 px-4 border-t border-slate-800">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-            <div class="text-center md:text-left">
-                <div class="text-slate-200 font-bold text-sm mb-1">臺北市立中正高級中學</div>
-                <div>Taipei Municipal Zhongzheng High School</div>
-                <div class="mt-2 text-slate-500">115 學年度「英法海外雙城見學交流計畫」甄選報名資訊專網</div>
-            </div>
-            <div class="flex flex-wrap gap-4 justify-center">
-                <a href="https://drive.google.com/file/d/1d6hJmSglzV1wfAwLyouBxMcwYS_BEpPQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">簡章 PDF 下載</a>
-                <span>•</span>
-                <a href="https://forms.gle/VQCweuZ17iJk3KLXA" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">線上報名登記</a>
-                <span>•</span>
-                <span class="text-slate-600">承辦窗口：中正高中圖書館讀者服務組</span>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript 交互邏輯 -->
-    <script>
-        // 初始化 Lucide 圖標
-        document.addEventListener("DOMContentLoaded", function() {
-            lucide.createIcons();
-        });
-
-        // 階段一到四配置 (依據 115 年 10/30-11/09 行程更新)
-        const phasesConfig = [
-            { location: "臺灣 ➔ 巴黎 CDG ➔ 波爾多 ➔ 法國干邑", accentColor: "#3b82f6", bgClass: "from-blue-50 to-indigo-50 border-blue-200" },
-            { location: "法國干邑省 (Cognac) Beaulieu 高中", accentColor: "#10b981", bgClass: "from-emerald-50 to-teal-50 border-emerald-200" },
-            { location: "法國波爾多 ➔ 英國倫敦 SHHS 姊妹校交流", accentColor: "#f59e0b", bgClass: "from-amber-50 to-orange-50 border-amber-200" },
-            { location: "英國倫敦經典走讀 ➔ 倫敦 LHR ➔ 臺灣 TPE", accentColor: "#8b5cf6", bgClass: "from-purple-50 to-pink-50 border-purple-200" }
-        ];
-
-        let currentActivePhase = 0;
-
-        // 頁籤切換核心函式
-        function setPhase(index) {
-            currentActivePhase = index;
-
-            // 1. 切換顯示的行程面板
-            document.querySelectorAll('.itinerary-phase').forEach((panel, idx) => {
-                if (idx === index) {
-                    panel.classList.remove('hidden');
-                } else {
-                    panel.classList.add('hidden');
-                }
-            });
-
-            // 2. 切換按鈕樣式
-            document.querySelectorAll('.phase-btn').forEach((btn, idx) => {
-                if (idx === index) {
-                    btn.className = `phase-btn py-3.5 px-4 rounded-xl text-left border-2 border-slate-900 shadow-md transform -translate-y-0.5 transition-all duration-200 bg-gradient-to-br ${phasesConfig[idx].bgClass}`;
-                } else {
-                    btn.className = "phase-btn py-3.5 px-4 rounded-xl text-left border-2 bg-slate-50 border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition-all duration-200";
-                }
-            });
-
-            // 3. 切換地圖 SVG node 狀態
-            document.querySelectorAll('.map-node').forEach((node, idx) => {
-                const circle = node.querySelector('.main-circle');
-                const ring = node.querySelector('.ping-ring');
-                const text = node.querySelector('text');
-                
-                if (idx === index) {
-                    circle.setAttribute('r', '10');
-                    circle.setAttribute('fill', phasesConfig[idx].accentColor);
-                    ring.classList.remove('hidden');
-                    text.setAttribute('fill', phasesConfig[idx].accentColor);
-                } else {
-                    circle.setAttribute('r', '7');
-                    circle.setAttribute('fill', '#475569');
-                    ring.classList.add('hidden');
-                    text.setAttribute('fill', '#94a3b8');
-                }
-            });
-
-            // 4. 更新下方地標路徑提示字
-            document.getElementById('current-location-text').innerText = phasesConfig[index].location;
-
-            // 5. 控制上一頁/下一頁按鈕狀態
-            document.getElementById('prev-phase-btn').disabled = (index === 0);
-            document.getElementById('next-phase-btn').disabled = (index === 3);
-        }
-
-        function prevPhase() {
-            if (currentActivePhase > 0) {
-                setPhase(currentActivePhase - 1);
-            }
-        }
-
-        function nextPhase() {
-            if (currentActivePhase < 3) {
-                setPhase(currentActivePhase + 1);
-            }
-        }
-
-        // FAQ 展開邏輯
-        let openFaqIndex = null;
-        function toggleFaq(index) {
-            const answer = document.getElementById(`faq-answer-${index}`);
-            const icon = document.querySelectorAll('.faq-icon')[index];
-            
-            if (openFaqIndex === index) {
-                answer.classList.add('hidden');
-                icon.style.transform = 'rotate(0deg)';
-                openFaqIndex = null;
-            } else {
-                if (openFaqIndex !== null) {
-                    document.getElementById(`faq-answer-${openFaqIndex}`).classList.add('hidden');
-                    document.querySelectorAll('.faq-icon')[openFaqIndex].style.transform = 'rotate(0deg)';
-                }
-                answer.classList.remove('hidden');
-                icon.style.transform = 'rotate(180deg)';
-                openFaqIndex = index;
-            }
-        }
-
-        // 適合度自檢測試
-        const quizAnswers = { q1: null, q2: null, q3: null, q4: null };
-
-        function answerQuestion(qId, value, buttonEl) {
-            quizAnswers[qId] = value;
-            
-            const buttons = document.querySelectorAll(`.btn-${qId}`);
-            buttons.forEach(btn => {
-                btn.className = "px-4 py-2 rounded-lg text-xs font-bold border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 transition";
-            });
-
-            if (value === 'yes') {
-                buttonEl.className = "px-4 py-2 rounded-lg text-xs font-bold border bg-amber-400 border-amber-400 text-slate-950 shadow-md shadow-amber-400/15 transition";
-            } else {
-                buttonEl.className = "px-4 py-2 rounded-lg text-xs font-bold border bg-rose-500 border-rose-500 text-white shadow-md transition";
-            }
-        }
-
-        // 提交測驗
-        function calculateScore() {
-            if (Object.values(quizAnswers).includes(null)) {
-                alert("請先填選完所有問題再送出查看評估！");
-                return;
-            }
-
-            const yesCount = Object.values(quizAnswers).filter(val => val === 'yes').length;
-
-            document.getElementById('quiz-questions-block').classList.add('hidden');
-            const resultBlock = document.getElementById('quiz-result-block');
-            resultBlock.classList.remove('hidden');
-
-            document.getElementById('score-text').innerText = yesCount;
-
-            const titleEl = document.getElementById('result-title');
-            const descEl = document.getElementById('result-desc');
-            const actionBtn = document.getElementById('result-action-btn');
-
-            if (yesCount === 4) {
-                titleEl.innerText = "超完美見學人選！";
-                descEl.innerText = "你與家長有很強的共識、優秀的自主性與卓越的紀律安全意識。這趟跨國的半自助見學之旅簡直為你量身打造，趕快進入線上登記預約你的面試時間吧！";
-                actionBtn.classList.remove('hidden');
-            } else if (yesCount >= 2) {
-                titleEl.innerText = "符合標準，建議勇於挑戰！";
-                descEl.innerText = "你已準備好應對大部分的核心自律規範。只要你願意配合學校的行前訓練，這會是改變你高中視野與生涯規劃的絕佳起點。報名期限至 7/15 中午 12:00，把握時間投遞！";
-                actionBtn.classList.remove('hidden');
-            } else {
-                titleEl.innerText = "建議慎重與導師、父母評估";
-                descEl.innerText = "本教育旅行為「半自助精緻團」，非常考量學員的自主管理、出發前訓練的配合度，以及面對意外退出須自行承擔退機票罰鍰之政策。建議先至圖書館讀者服務組諮詢老師。";
-                actionBtn.classList.add('hidden');
-            }
-        }
-
-        function resetQuiz() {
-            quizAnswers.q1 = null;
-            quizAnswers.q2 = null;
-            quizAnswers.q3 = null;
-            quizAnswers.q4 = null;
-
-            const allQuizButtons = document.querySelectorAll('[class^="btn-q"]');
-            allQuizButtons.forEach(btn => {
-                btn.className = btn.className.split(' ').filter(c => !c.startsWith('bg-') && !c.startsWith('text-') && !c.startsWith('border-')).join(' ') + " border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100";
-            });
-
-            document.getElementById('quiz-questions-block').classList.remove('hidden');
-            document.getElementById('quiz-result-block').classList.add('hidden');
-        }
-    </script>
-</body>
-</html>
